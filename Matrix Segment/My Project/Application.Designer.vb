@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Matrix_Segment.Form1
+            Me.MainForm = Global.Matrix_Segment.MainActivity
         End Sub
     End Class
 End Namespace
