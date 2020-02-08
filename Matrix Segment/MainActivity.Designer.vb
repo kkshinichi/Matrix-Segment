@@ -60,27 +60,27 @@ Partial Class MainActivity
         '
         'btnStart
         '
-        Me.btnStart.Location = New System.Drawing.Point(30, 318)
+        Me.btnStart.Location = New System.Drawing.Point(30, 206)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(100, 30)
+        Me.btnStart.Size = New System.Drawing.Size(104, 30)
         Me.btnStart.TabIndex = 1
         Me.btnStart.Text = "Start"
         Me.btnStart.UseVisualStyleBackColor = True
         '
         'btnStop
         '
-        Me.btnStop.Location = New System.Drawing.Point(30, 354)
+        Me.btnStop.Location = New System.Drawing.Point(30, 242)
         Me.btnStop.Name = "btnStop"
-        Me.btnStop.Size = New System.Drawing.Size(100, 30)
+        Me.btnStop.Size = New System.Drawing.Size(104, 30)
         Me.btnStop.TabIndex = 2
         Me.btnStop.Text = "Stop"
         Me.btnStop.UseVisualStyleBackColor = True
         '
         'btnReset
         '
-        Me.btnReset.Location = New System.Drawing.Point(30, 390)
+        Me.btnReset.Location = New System.Drawing.Point(30, 278)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(100, 30)
+        Me.btnReset.Size = New System.Drawing.Size(104, 30)
         Me.btnReset.TabIndex = 3
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
@@ -88,10 +88,10 @@ Partial Class MainActivity
         'StartInput
         '
         Me.StartInput.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StartInput.Location = New System.Drawing.Point(108, 240)
+        Me.StartInput.Location = New System.Drawing.Point(102, 160)
         Me.StartInput.Name = "StartInput"
         Me.StartInput.ShortcutsEnabled = False
-        Me.StartInput.Size = New System.Drawing.Size(42, 23)
+        Me.StartInput.Size = New System.Drawing.Size(50, 23)
         Me.StartInput.TabIndex = 4
         '
         'Information1
@@ -100,12 +100,12 @@ Partial Class MainActivity
         Me.Information1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Information1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Information1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Information1.Location = New System.Drawing.Point(18, 243)
+        Me.Information1.Location = New System.Drawing.Point(12, 163)
         Me.Information1.Multiline = False
         Me.Information1.Name = "Information1"
         Me.Information1.ReadOnly = True
         Me.Information1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.Information1.Size = New System.Drawing.Size(74, 20)
+        Me.Information1.Size = New System.Drawing.Size(84, 20)
         Me.Information1.TabIndex = 5
         Me.Information1.Text = "Start with #"
         '
@@ -116,7 +116,7 @@ Partial Class MainActivity
         Me.segmentA1.Enabled = False
         Me.segmentA1.FlatAppearance.BorderSize = 0
         Me.segmentA1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentA1.Location = New System.Drawing.Point(11, 12)
+        Me.segmentA1.Location = New System.Drawing.Point(8, 8)
         Me.segmentA1.Name = "segmentA1"
         Me.segmentA1.Size = New System.Drawing.Size(20, 20)
         Me.segmentA1.TabIndex = 6
@@ -128,7 +128,7 @@ Partial Class MainActivity
         Me.segmentA2.Enabled = False
         Me.segmentA2.FlatAppearance.BorderSize = 0
         Me.segmentA2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentA2.Location = New System.Drawing.Point(32, 12)
+        Me.segmentA2.Location = New System.Drawing.Point(29, 8)
         Me.segmentA2.Name = "segmentA2"
         Me.segmentA2.Size = New System.Drawing.Size(20, 20)
         Me.segmentA2.TabIndex = 7
@@ -140,7 +140,7 @@ Partial Class MainActivity
         Me.segmentA3.Enabled = False
         Me.segmentA3.FlatAppearance.BorderSize = 0
         Me.segmentA3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentA3.Location = New System.Drawing.Point(53, 12)
+        Me.segmentA3.Location = New System.Drawing.Point(50, 8)
         Me.segmentA3.Name = "segmentA3"
         Me.segmentA3.Size = New System.Drawing.Size(20, 20)
         Me.segmentA3.TabIndex = 8
@@ -152,7 +152,7 @@ Partial Class MainActivity
         Me.segmentA4.Enabled = False
         Me.segmentA4.FlatAppearance.BorderSize = 0
         Me.segmentA4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentA4.Location = New System.Drawing.Point(74, 12)
+        Me.segmentA4.Location = New System.Drawing.Point(71, 8)
         Me.segmentA4.Name = "segmentA4"
         Me.segmentA4.Size = New System.Drawing.Size(20, 20)
         Me.segmentA4.TabIndex = 9
@@ -164,7 +164,7 @@ Partial Class MainActivity
         Me.segmentA5.Enabled = False
         Me.segmentA5.FlatAppearance.BorderSize = 0
         Me.segmentA5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentA5.Location = New System.Drawing.Point(95, 12)
+        Me.segmentA5.Location = New System.Drawing.Point(92, 8)
         Me.segmentA5.Name = "segmentA5"
         Me.segmentA5.Size = New System.Drawing.Size(20, 20)
         Me.segmentA5.TabIndex = 10
@@ -176,7 +176,7 @@ Partial Class MainActivity
         Me.segmentB1.Enabled = False
         Me.segmentB1.FlatAppearance.BorderSize = 0
         Me.segmentB1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentB1.Location = New System.Drawing.Point(11, 33)
+        Me.segmentB1.Location = New System.Drawing.Point(8, 29)
         Me.segmentB1.Name = "segmentB1"
         Me.segmentB1.Size = New System.Drawing.Size(20, 20)
         Me.segmentB1.TabIndex = 11
@@ -188,7 +188,7 @@ Partial Class MainActivity
         Me.segmentB2.Enabled = False
         Me.segmentB2.FlatAppearance.BorderSize = 0
         Me.segmentB2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentB2.Location = New System.Drawing.Point(32, 33)
+        Me.segmentB2.Location = New System.Drawing.Point(29, 29)
         Me.segmentB2.Name = "segmentB2"
         Me.segmentB2.Size = New System.Drawing.Size(20, 20)
         Me.segmentB2.TabIndex = 12
@@ -200,7 +200,7 @@ Partial Class MainActivity
         Me.segmentB3.Enabled = False
         Me.segmentB3.FlatAppearance.BorderSize = 0
         Me.segmentB3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentB3.Location = New System.Drawing.Point(53, 33)
+        Me.segmentB3.Location = New System.Drawing.Point(50, 29)
         Me.segmentB3.Name = "segmentB3"
         Me.segmentB3.Size = New System.Drawing.Size(20, 20)
         Me.segmentB3.TabIndex = 13
@@ -212,7 +212,7 @@ Partial Class MainActivity
         Me.segmentB4.Enabled = False
         Me.segmentB4.FlatAppearance.BorderSize = 0
         Me.segmentB4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentB4.Location = New System.Drawing.Point(74, 33)
+        Me.segmentB4.Location = New System.Drawing.Point(71, 29)
         Me.segmentB4.Name = "segmentB4"
         Me.segmentB4.Size = New System.Drawing.Size(20, 20)
         Me.segmentB4.TabIndex = 13
@@ -224,7 +224,7 @@ Partial Class MainActivity
         Me.segmentB5.Enabled = False
         Me.segmentB5.FlatAppearance.BorderSize = 0
         Me.segmentB5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentB5.Location = New System.Drawing.Point(95, 33)
+        Me.segmentB5.Location = New System.Drawing.Point(92, 29)
         Me.segmentB5.Name = "segmentB5"
         Me.segmentB5.Size = New System.Drawing.Size(20, 20)
         Me.segmentB5.TabIndex = 13
@@ -236,7 +236,7 @@ Partial Class MainActivity
         Me.segmentC1.Enabled = False
         Me.segmentC1.FlatAppearance.BorderSize = 0
         Me.segmentC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentC1.Location = New System.Drawing.Point(11, 54)
+        Me.segmentC1.Location = New System.Drawing.Point(8, 50)
         Me.segmentC1.Name = "segmentC1"
         Me.segmentC1.Size = New System.Drawing.Size(20, 20)
         Me.segmentC1.TabIndex = 11
@@ -248,7 +248,7 @@ Partial Class MainActivity
         Me.segmentC2.Enabled = False
         Me.segmentC2.FlatAppearance.BorderSize = 0
         Me.segmentC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentC2.Location = New System.Drawing.Point(32, 54)
+        Me.segmentC2.Location = New System.Drawing.Point(29, 50)
         Me.segmentC2.Name = "segmentC2"
         Me.segmentC2.Size = New System.Drawing.Size(20, 20)
         Me.segmentC2.TabIndex = 12
@@ -260,7 +260,7 @@ Partial Class MainActivity
         Me.segmentC3.Enabled = False
         Me.segmentC3.FlatAppearance.BorderSize = 0
         Me.segmentC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentC3.Location = New System.Drawing.Point(53, 54)
+        Me.segmentC3.Location = New System.Drawing.Point(50, 50)
         Me.segmentC3.Name = "segmentC3"
         Me.segmentC3.Size = New System.Drawing.Size(20, 20)
         Me.segmentC3.TabIndex = 13
@@ -272,7 +272,7 @@ Partial Class MainActivity
         Me.segmentC4.Enabled = False
         Me.segmentC4.FlatAppearance.BorderSize = 0
         Me.segmentC4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentC4.Location = New System.Drawing.Point(74, 54)
+        Me.segmentC4.Location = New System.Drawing.Point(71, 50)
         Me.segmentC4.Name = "segmentC4"
         Me.segmentC4.Size = New System.Drawing.Size(20, 20)
         Me.segmentC4.TabIndex = 13
@@ -284,7 +284,7 @@ Partial Class MainActivity
         Me.segmentC5.Enabled = False
         Me.segmentC5.FlatAppearance.BorderSize = 0
         Me.segmentC5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentC5.Location = New System.Drawing.Point(95, 54)
+        Me.segmentC5.Location = New System.Drawing.Point(92, 50)
         Me.segmentC5.Name = "segmentC5"
         Me.segmentC5.Size = New System.Drawing.Size(20, 20)
         Me.segmentC5.TabIndex = 13
@@ -296,7 +296,7 @@ Partial Class MainActivity
         Me.segmentD1.Enabled = False
         Me.segmentD1.FlatAppearance.BorderSize = 0
         Me.segmentD1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentD1.Location = New System.Drawing.Point(11, 75)
+        Me.segmentD1.Location = New System.Drawing.Point(8, 71)
         Me.segmentD1.Name = "segmentD1"
         Me.segmentD1.Size = New System.Drawing.Size(20, 20)
         Me.segmentD1.TabIndex = 11
@@ -308,7 +308,7 @@ Partial Class MainActivity
         Me.segmentD2.Enabled = False
         Me.segmentD2.FlatAppearance.BorderSize = 0
         Me.segmentD2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentD2.Location = New System.Drawing.Point(32, 75)
+        Me.segmentD2.Location = New System.Drawing.Point(29, 71)
         Me.segmentD2.Name = "segmentD2"
         Me.segmentD2.Size = New System.Drawing.Size(20, 20)
         Me.segmentD2.TabIndex = 12
@@ -320,7 +320,7 @@ Partial Class MainActivity
         Me.segmentD3.Enabled = False
         Me.segmentD3.FlatAppearance.BorderSize = 0
         Me.segmentD3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentD3.Location = New System.Drawing.Point(53, 75)
+        Me.segmentD3.Location = New System.Drawing.Point(50, 71)
         Me.segmentD3.Name = "segmentD3"
         Me.segmentD3.Size = New System.Drawing.Size(20, 20)
         Me.segmentD3.TabIndex = 13
@@ -332,7 +332,7 @@ Partial Class MainActivity
         Me.segmentD4.Enabled = False
         Me.segmentD4.FlatAppearance.BorderSize = 0
         Me.segmentD4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentD4.Location = New System.Drawing.Point(74, 75)
+        Me.segmentD4.Location = New System.Drawing.Point(71, 71)
         Me.segmentD4.Name = "segmentD4"
         Me.segmentD4.Size = New System.Drawing.Size(20, 20)
         Me.segmentD4.TabIndex = 13
@@ -344,7 +344,7 @@ Partial Class MainActivity
         Me.segmentD5.Enabled = False
         Me.segmentD5.FlatAppearance.BorderSize = 0
         Me.segmentD5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentD5.Location = New System.Drawing.Point(95, 75)
+        Me.segmentD5.Location = New System.Drawing.Point(92, 71)
         Me.segmentD5.Name = "segmentD5"
         Me.segmentD5.Size = New System.Drawing.Size(20, 20)
         Me.segmentD5.TabIndex = 13
@@ -356,7 +356,7 @@ Partial Class MainActivity
         Me.segmentE1.Enabled = False
         Me.segmentE1.FlatAppearance.BorderSize = 0
         Me.segmentE1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentE1.Location = New System.Drawing.Point(11, 96)
+        Me.segmentE1.Location = New System.Drawing.Point(8, 92)
         Me.segmentE1.Name = "segmentE1"
         Me.segmentE1.Size = New System.Drawing.Size(20, 20)
         Me.segmentE1.TabIndex = 11
@@ -368,7 +368,7 @@ Partial Class MainActivity
         Me.segmentE2.Enabled = False
         Me.segmentE2.FlatAppearance.BorderSize = 0
         Me.segmentE2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentE2.Location = New System.Drawing.Point(32, 96)
+        Me.segmentE2.Location = New System.Drawing.Point(29, 92)
         Me.segmentE2.Name = "segmentE2"
         Me.segmentE2.Size = New System.Drawing.Size(20, 20)
         Me.segmentE2.TabIndex = 12
@@ -380,7 +380,7 @@ Partial Class MainActivity
         Me.segmentE3.Enabled = False
         Me.segmentE3.FlatAppearance.BorderSize = 0
         Me.segmentE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentE3.Location = New System.Drawing.Point(53, 96)
+        Me.segmentE3.Location = New System.Drawing.Point(50, 92)
         Me.segmentE3.Name = "segmentE3"
         Me.segmentE3.Size = New System.Drawing.Size(20, 20)
         Me.segmentE3.TabIndex = 13
@@ -392,7 +392,7 @@ Partial Class MainActivity
         Me.segmentE4.Enabled = False
         Me.segmentE4.FlatAppearance.BorderSize = 0
         Me.segmentE4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentE4.Location = New System.Drawing.Point(74, 96)
+        Me.segmentE4.Location = New System.Drawing.Point(71, 92)
         Me.segmentE4.Name = "segmentE4"
         Me.segmentE4.Size = New System.Drawing.Size(20, 20)
         Me.segmentE4.TabIndex = 13
@@ -404,7 +404,7 @@ Partial Class MainActivity
         Me.segmentE5.Enabled = False
         Me.segmentE5.FlatAppearance.BorderSize = 0
         Me.segmentE5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.segmentE5.Location = New System.Drawing.Point(95, 96)
+        Me.segmentE5.Location = New System.Drawing.Point(92, 92)
         Me.segmentE5.Name = "segmentE5"
         Me.segmentE5.Size = New System.Drawing.Size(20, 20)
         Me.segmentE5.TabIndex = 13
@@ -438,17 +438,20 @@ Partial Class MainActivity
         Me.Panel1.Controls.Add(Me.segmentE3)
         Me.Panel1.Controls.Add(Me.segmentE4)
         Me.Panel1.Controls.Add(Me.segmentE5)
-        Me.Panel1.Location = New System.Drawing.Point(19, 20)
+        Me.Panel1.Location = New System.Drawing.Point(22, 22)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(126, 190)
+        Me.Panel1.Size = New System.Drawing.Size(120, 120)
         Me.Panel1.TabIndex = 13
+        '
+        'Timer1
+        '
         '
         'MainActivity
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(239, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(164, 441)
+        Me.ClientSize = New System.Drawing.Size(164, 321)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Information1)
         Me.Controls.Add(Me.StartInput)

@@ -639,4 +639,8 @@ Public Class MainActivity
         segmentE4.BackColor = Color.White
         segmentE5.BackColor = Color.White
     End Sub
+
+    Private Sub segmentA2_Click(sender As Object, e As EventArgs) Handles segmentA2.Click
+
+    End Sub
 End Class
